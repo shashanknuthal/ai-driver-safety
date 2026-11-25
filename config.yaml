@@ -1,0 +1,27 @@
+camera:
+  index: 0
+  width: 1280
+  height: 720
+  fps: 30
+
+thresholds:
+  ear_closed: 0.21
+  eye_closure_seconds: 1.0
+  yawn_mar: 0.55
+  yawn_seconds: 1.0
+  head_pitch_down: 18.0
+  head_yaw_away: 28.0
+  risk_warning: 45
+  risk_critical: 75
+
+temporal:
+  window_seconds: 30
+  min_fps_assumption: 15
+
+alerts:
+  cooldown_seconds: 5
+  enable_voice: true
+  enable_beep: true
+
+database:
+  path: "driver_safety.db"

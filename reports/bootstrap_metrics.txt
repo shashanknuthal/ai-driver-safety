@@ -1,0 +1,2 @@
+Bootstrap GRU test accuracy on held-out generated sequences: 1.0000
+This is NOT a benchmark result and must not be presented as real-world accuracy.

@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+driver_safety.db
+models/*.pt
+models/*.onnx
+datasets/raw/
+datasets/processed/
+.streamlit/
+.idea/
+.vscode/
+
+# Keep the small demonstration checkpoint in the repository; ignore other weights.
+!models/drowsiness_gru_bootstrap.pt

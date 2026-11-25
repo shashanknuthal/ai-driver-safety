@@ -1,0 +1,21 @@
+{
+  "model": "BiGRU feature-sequence classifier",
+  "classes": [
+    "alert",
+    "low_vigilance",
+    "drowsy"
+  ],
+  "sequence_length": 30,
+  "features": [
+    "ear",
+    "mar",
+    "abs_yaw",
+    "pitch_down",
+    "eye_closure_duration",
+    "yawn_duration",
+    "blink_rate",
+    "yawn_rate"
+  ],
+  "bootstrap_test_accuracy": 1.0,
+  "note": "Trained on generated feature sequences as a bootstrap model. Replace/retrain with real labeled driver videos before making research-grade accuracy claims."
+}
